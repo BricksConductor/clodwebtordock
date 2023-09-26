@@ -1,6 +1,6 @@
 FROM node:20
 
-RUN npm i -g peerflix-server
+RUN npm i -g webtorrent-webui
 
 EXPOSE 3000 7000
 
