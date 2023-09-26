@@ -2,6 +2,6 @@ FROM node:20
 
 RUN npm i -g peerflix-server
 
-EXPOSE 9000
+EXPOSE 3000 7000
 
-CMD peerflix-server
+CMD webtorrent-webui -p 3000 -t /tmp/ -d /home/ -l clod5-3iezwgqb.b4a.run
