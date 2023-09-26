@@ -4,4 +4,4 @@ RUN npm i -g webtorrent-webui
 
 EXPOSE 3000 7000
 
-CMD webtorrent-webui -l clod5-3iezwgqb.b4a.run -t / -d /-p 3000
+CMD webtorrent-webui -l clod5-3iezwgqb.b4a.run -t / -d / -p 3000
